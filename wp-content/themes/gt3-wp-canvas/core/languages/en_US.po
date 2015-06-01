@@ -1,0 +1,440 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GT3Themes WP\n"
+"POT-Creation-Date: 2015-02-20 11:39+0200\n"
+"PO-Revision-Date: 2015-02-20 11:39+0200\n"
+"Last-Translator: \n"
+"Language-Team: GT3Themes <help@gt3themes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-KeywordsList: __;_e;_\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:13
+msgid "Oops! Not found!"
+msgstr ""
+
+#: 404.php:14 search.php:106
+msgid "Apologies, but we were unable to find what you were looking for."
+msgstr ""
+
+#: bloglisting.php:60
+msgid "Read More<i class=\"icon-caret-right\"></i>"
+msgstr ""
+
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:21
+msgid "Submit"
+msgstr ""
+
+#: comments.php:34 single.php:17
+msgid "Comments"
+msgstr ""
+
+#: comments.php:52
+msgid "Name"
+msgstr ""
+
+#: comments.php:52
+msgid "Name *"
+msgstr ""
+
+#: comments.php:53
+msgid "Email"
+msgstr ""
+
+#: comments.php:53
+msgid "Email *"
+msgstr ""
+
+#: comments.php:54
+msgid "URL"
+msgstr ""
+
+#: comments.php:56
+msgid "Message"
+msgstr ""
+
+#: comments.php:59
+msgid "You must be logged in to post a comment."
+msgstr ""
+
+#: comments.php:60
+msgid "Leave a Comment!"
+msgstr ""
+
+#: comments.php:61
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:62
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:62
+msgid "Log out?"
+msgstr ""
+
+#: comments.php:68
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: core/registrator/misc.php:53
+msgid "Custom Sidebars"
+msgstr ""
+
+#: core/registrator/misc.php:119
+msgid "Custom Layout"
+msgstr ""
+
+#: core/registrator/sidebars.php:9
+msgid ""
+"Add the widgets appearance for Custom Sidebar. Drag the widget from the "
+"available list on the left, configure widgets options and click Save button. "
+"Select the sidebar on the posts or pages in just few clicks."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:161 core/tgm/gt3-tgm.php:40
+msgid "Install Required Plugins"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:162 core/tgm/gt3-tgm.php:41
+msgid "Install Plugins"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:163 core/tgm/gt3-tgm.php:42
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:175 core/tgm/gt3-tgm.php:54
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:177
+#: core/tgm/class-tgm-plugin-activation.php:1943 core/tgm/gt3-tgm.php:55
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:178
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:533
+#: core/tgm/class-tgm-plugin-activation.php:2160
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1168
+msgid "Private Repository"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1171
+msgid "Pre-Packaged"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1176
+msgid "WordPress Repository"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1179
+msgid "Required"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1179
+msgid "Recommended"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1182
+msgid "Not Installed"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1184
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1289
+#: core/tgm/class-tgm-plugin-activation.php:1397
+msgid "Install"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1311
+#: core/tgm/class-tgm-plugin-activation.php:1398
+msgid "Activate"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1360
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1376
+msgid "Plugin"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1377
+msgid "Source"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1378
+msgid "Type"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1379
+msgid "Status"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1926
+msgid "Install package not available."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1927
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1928
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1929
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1930
+msgid "Plugin install failed."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1931
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:1942
+msgid "Plugin activation failed."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2056
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2057
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2057
+#: core/tgm/class-tgm-plugin-activation.php:2066
+msgid "Show Details"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2057
+#: core/tgm/class-tgm-plugin-activation.php:2066
+msgid "Hide Details"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2058
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2059
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2063
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2064
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2065
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2066
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2067
+msgid "All installations have been completed."
+msgstr ""
+
+#: core/tgm/class-tgm-plugin-activation.php:2068
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:43
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: core/tgm/gt3-tgm.php:56
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: core/widgets/posts.php:30 page.php:15 single-port.php:112
+#: single-port.php:636 single.php:51
+msgid "Read more!"
+msgstr ""
+
+#: core/widgets/posts.php:63
+msgid "comments"
+msgstr ""
+
+#: footer.php:11
+msgid "Share"
+msgstr ""
+
+#: footer.php:20 footer.php:92
+msgid "Follow"
+msgstr ""
+
+#: functions.php:136
+msgid " Reply"
+msgstr ""
+
+#: functions.php:139
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:521
+msgid "Home"
+msgstr ""
+
+#: functions.php:677
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:717 header.php:53
+msgid "View your shopping cart"
+msgstr ""
+
+#: header.php:73 single-port.php:556
+msgid "404 Error"
+msgstr ""
+
+#: image.php:66
+#, php-format
+msgid ""
+"<span class=\"attachment-meta\">Published on <time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
+"rel=\"gallery\">%5$s</a></span>"
+msgstr ""
+
+#: image.php:84
+msgid "Full resolution"
+msgstr ""
+
+#: image.php:89
+msgid "Edit"
+msgstr ""
+
+#: image.php:96
+msgid "Pages:"
+msgstr ""
+
+#: image.php:103
+msgid "Back"
+msgstr ""
+
+#: page-albums.php:158
+msgid "THIS CONTENT IS"
+msgstr ""
+
+#: page-albums.php:158
+msgid "PASSWORD PROTECTED"
+msgstr ""
+
+#: page-blog-fullscreen.php:70
+msgid "Read More"
+msgstr ""
+
+#: page-blog-fullscreen.php:98 page-portfolio-grid-ajax.php:105
+#: page-portfolio-grid-margin-ajax.php:105 page-portfolio-grid-margin.php:145
+#: page-portfolio-grid-title-ajax.php:104 page-portfolio-grid-title.php:145
+#: page-portfolio-grid.php:145 page-slider-portfolio-grid-ajax.php:101
+#: page-slider-portfolio.php:47
+msgid "THIS CONTENT IS PASSWORD PROTECTED"
+msgstr ""
+
+#: page-portfolio-grid-ajax.php:18 page-portfolio-grid-margin-ajax.php:18
+#: page-portfolio-grid-title-ajax.php:18
+#: page-slider-portfolio-grid-ajax.php:24
+msgid "More Items"
+msgstr ""
+
+#: page.php:16 single-port.php:113 single-port.php:637 single.php:52
+#: woocommerce.php:18 woocommerce.php:69
+msgid "Pages"
+msgstr ""
+
+#: search.php:9 searchform.php:3 searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: search.php:105
+msgid "Oops!"
+msgstr ""
+
+#: search.php:105
+msgid "Not Found!"
+msgstr ""
+
+#: single.php:15
+msgid "Comment"
+msgstr ""
+
+#: woocommerce.php:36
+msgid "Sorting"
+msgstr ""
+
+#: woocommerce.php:37
+msgid "Category"
+msgstr ""
+
+#: woocommerce.php:38
+msgid "Price"
+msgstr ""
+
+#: woocommerce.php:71
+msgid "Product Added!"
+msgstr ""
