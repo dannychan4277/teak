@@ -13,7 +13,12 @@ body, html {
     -webkit-font-smoothing: antialiased
 }
 
+.margin-top-40{
+    margin-top: 40px;
+}
+
 .wrapper {
+    margin-top: 70px;
     margin-bottom: 50px;
 }
 

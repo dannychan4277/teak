@@ -1,12 +1,12 @@
 <?php
 
-/*add_filter( 'woocommerce_product_tabs', 'sb_woo_remove_reviews_tab', 98);
+add_filter( 'woocommerce_product_tabs', 'sb_woo_remove_reviews_tab', 98);
 function sb_woo_remove_reviews_tab($tabs) {
 
  unset($tabs['reviews']);
 
  return $tabs;
-}*/
+}
 
 if (!isset($content_width)) $content_width = 940;
 
