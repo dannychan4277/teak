@@ -1,3 +1,57 @@
+li#menu-posts-port{
+    display: none !important;
+}
+li#menu-posts-gallery{
+    display: none !important;
+}
+li#menu-posts-testimonials{
+    display: none !important;
+}
+li#menu-comments{
+    display: none !important;
+}
+li#toplevel_page_woocommerce{
+    display: none !important;
+}
+li#menu-appearance{
+    display: none !important;
+}
+li#menu-plugins{
+    display: none !important;
+}
+li#menu-menu-tools{
+    display: none !important;
+}
+
+li#toplevel_page_cptui_main_menu{
+    display: none !important;
+}
+li#toplevel_page_revslider{
+    display: none !important;
+}
+li#toplevel_page_themepunch-google-fonts{
+    display: none !important;
+}
+li#toplevel_page_canvas_options{
+    display: none !important;
+}
+li#menu-media{
+    display: none !important;
+}
+li#menu-posts-team{
+    display: none !important;
+}
+li#menu-posts-partners{
+    display: none !important;
+}
+li#menu-users{
+    display: none !important;
+}
+li#menu-tools{
+    display: none !important;
+}
+
+
 /* FOCUS AREA */
 .mix-container textarea:focus, .mix-container input[type="text"]:focus, .mix-container input[type="password"]:focus, .mix-container input[type="file"]:focus, .mix-container input[type="button"]:focus, .mix-container input[type="submit"]:focus, .mix-container input[type="reset"]:focus, .mix-container input[type="email"]:focus, .mix-container input[type="number"]:focus, .mix-container input[type="search"]:focus, .mix-container input[type="tel"]:focus, .mix-container input[type="url"]:focus {
 	box-shadow:0 0 5px #000000;

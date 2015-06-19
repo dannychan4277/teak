@@ -1,5 +1,12 @@
 <?php
 
+function remove_nav_cart_link () {
+    remove_action( 'woo_nav_inside', 'woo_add_nav_cart_link', 20);
+}
+
+add_action( 'after_setup_theme', 'remove_nav_cart_link' );
+
+
 add_filter( 'woocommerce_product_tabs', 'sb_woo_remove_reviews_tab', 98);
 function sb_woo_remove_reviews_tab($tabs) {
 
@@ -7,6 +14,7 @@ function sb_woo_remove_reviews_tab($tabs) {
 
  return $tabs;
 }
+
 
 if (!isset($content_width)) $content_width = 940;
 

@@ -1,6 +1,83 @@
-.post_otput_container > .meta {
+/**
+ * for home page full width container
+ */
+.home .container {
+    width: 100%;
+}
+
+/**
+ * for sorting filtering
+ */
+.sort_field_name{
+    display: none !important;
+}
+.def_shop_sorting{
+    display: none !important;
+}
+
+/**
+ * hidding shopping cart
+ */
+.header_cart_content{
+    display: none !important;
+}
+
+/**
+ * for top category shortcut
+ */
+ul.product-categories li {
+  float: left;
+}
+
+ul.product-categories li a {
+  padding: 10px;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  color: #535353;
+  font-size: 16px;
+  box-shadow: 0px 0px 1px 0px #d8d8d8;
+  margin-right: 16px;
+}
+
+ul.product-categories li a:before {
+    content: none !important;
+}
+
+
+.shortcut{
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    color: #535353;
+    font-size: 16px;
+    box-shadow: 0px 0px 1px 0px #d8d8d8;
+    margin-right: 16px;
+}
+
+.shortcut:hover{
+    color: rgb(212, 45, 45);
+    border: 1px solid rgb(212, 45, 45);
+    box-shadow: 0px 0px 1px 0px rgb(212, 45, 45);
+}
+
+/*.post_otput_container > .meta {
 display: none !important;
 }
+.header_cart_content {
+    display: none !important;
+}
+.def_shop_sorting{
+    display: none !important;
+}
+.sort_field_name{
+    display: none !important;
+}
+.product_meta{
+    display: none !important;
+}
+.button.product_type_simple{
+    display: none !important;
+}*/
 
 /* GRID */
 body, html {
@@ -3505,7 +3582,7 @@ body.gt3_menu_active {
 
 .horizontal_menu ul li a {
     color: #262525;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
     font-weight: 600;
@@ -5987,7 +6064,7 @@ p.form-submit {
 .page form.wpcf7-form p {
     margin-bottom: 0;
 }
-.page form.wpcf7-form p input[type="text"], .page form.wpcf7-form p textarea {
+.page form.wpcf7-form p input[type="text"], .page form.wpcf7-form p input[type="email"], .page form.wpcf7-form p textarea {
     width: 100%;
     box-sizing: border-box;
     font-size: 13px;
@@ -6000,11 +6077,11 @@ p.form-submit {
     height: 126px;
     margin: 2px 0 3px;
 }
-.page form.wpcf7-form p input[type="text"]::-moz-placeholder, .page form.wpcf7-form p textarea::-moz-placeholder {
+.page form.wpcf7-form p input[type="text"]::-moz-placeholder, .page form.wpcf7-form p input[type="email"]::-moz-placeholder, .page form.wpcf7-form p textarea::-moz-placeholder {
     color: #424242;
     opacity: 1;
 }
-.page form.wpcf7-form p input[type="text"]::-webkit-input-placeholder, .page form.wpcf7-form p textarea::-webkit-input-placeholder {
+.page form.wpcf7-form p input[type="text"]::-webkit-input-placeholder, .page form.wpcf7-form p input[type="email"]::-webkit-input-placeholder, .page form.wpcf7-form p textarea::-webkit-input-placeholder {
     color: #424242;
 }
 .page form.wpcf7-form p input[type="submit"] {
@@ -6022,6 +6099,7 @@ p.form-submit {
 }
 .page form.wpcf7-form p input[type="submit"],
 .page form.wpcf7-form p input[type="text"],
+.page form.wpcf7-form p input[type="email"],
 .page form.wpcf7-form p textarea,
 .single form.comment-form input,
 .single form.comment-form textarea,
