@@ -152,9 +152,9 @@ jQuery(window).load(function () {
 
         var currentProduct = jQuery("body.single-product .woocommerce_container>div.product")[0];
         var currentProductNumber = parseInt(currentProduct.id.split("-")[1]);
-        var prevProductNumber = 10000000;
+        var prevProductNumber = 0;
         var prevProductLink = "";
-        var nextProductNumber = 0;
+        var nextProductNumber = 10000000;
         var nextProductLink = "";
 
         var relatedProducts = jQuery("body.single-product .related ul.products li");
@@ -170,11 +170,11 @@ jQuery(window).load(function () {
                 }
                 return postNumber;
             }, 0);
-            if (postNumber < prevProductNumber && postNumber > currentProductNumber) {
+            if (postNumber < currentProductNumber && postNumber > prevProductNumber) {
                 prevProductNumber = postNumber;
                 prevProductLink = jQuery(product).find("a")[0].href;
             }
-            if (postNumber < currentProductNumber && postNumber > nextProductNumber) {
+            if (postNumber < nextProductNumber && postNumber > currentProductNumber) {
                 nextProductNumber = postNumber;
                 nextProductLink = jQuery(product).find("a")[0].href;
             }
