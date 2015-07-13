@@ -1,4 +1,4 @@
-/*li#menu-posts-port{
+li#menu-posts-port{
     display: none !important;
 }
 li#menu-posts-gallery{
@@ -50,7 +50,6 @@ li#menu-users{
 li#menu-tools{
     display: none !important;
 }
-*/
 
 /* FOCUS AREA */
 .mix-container textarea:focus, .mix-container input[type="text"]:focus, .mix-container input[type="password"]:focus, .mix-container input[type="file"]:focus, .mix-container input[type="button"]:focus, .mix-container input[type="submit"]:focus, .mix-container input[type="reset"]:focus, .mix-container input[type="email"]:focus, .mix-container input[type="number"]:focus, .mix-container input[type="search"]:focus, .mix-container input[type="tel"]:focus, .mix-container input[type="url"]:focus {

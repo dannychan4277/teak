@@ -114,3 +114,37 @@ jQuery(window).resize(function () {
         autoReinitialise: true
     });
 });
+
+///////////////////
+// Menu Folding //
+///////////////////
+jQuery(window).load(function () {
+    //if (location.pathname === "/furniture/") {
+        //jQuery(".archive .product-categories .children").addClass("hidden");
+        jQuery(".archive .product-categories>li.cat-parent>a").on("mouseover", function (e) {
+            jQuery(jQuery(e.toElement)[0].parentElement).find(".children").addClass("show");
+        });
+        jQuery(".archive .product-categories>li.cat-parent>a").on("mouseout", function (e) {
+            jQuery(jQuery(e.toElement)[0].parentElement).find(".children").removeClass("show");
+        });
+
+        jQuery(".archive .product-categories>li.cat-parent>ul.children").on("mouseover", function (e) {
+            jQuery(this).addClass("show");
+        });
+        jQuery(".archive .product-categories>li.cat-parent>ul.children").on("mouseout", function (e) {
+            jQuery(this).removeClass("show");
+        });
+        jQuery("body.archive").append("<style>\
+                ul.product-categories>li{\
+                    position: relative;\
+                }\
+                ul.product-categories>li.cat-parent>ul.children{\
+                    position: absolute;\
+                    z-index: 1;\
+                }\
+                ul.product-categories>li>a{\
+                    margin: 0px 10px;\
+                }\
+            </style>");
+    //}
+});
